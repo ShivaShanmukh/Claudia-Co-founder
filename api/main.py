@@ -33,7 +33,7 @@ from agent.output import extract_brief_markdown, save_brief
 
 load_dotenv()
 
-MODEL = "claude-sonnet-4-6"
+MODEL = "claude-3-7-sonnet-latest"
 
 app = FastAPI(title="Prototype Pilot API", version="1.0.0")
 

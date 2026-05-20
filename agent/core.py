@@ -30,7 +30,7 @@ from .output import extract_brief_markdown, save_brief, format_phase_header
 
 load_dotenv()
 
-MODEL = "claude-sonnet-4-6"
+MODEL = "claude-3-7-sonnet-latest"
 MAX_CLARIFY_ROUNDS = 3  # max back-and-forth before forcing scope transition
 
 
